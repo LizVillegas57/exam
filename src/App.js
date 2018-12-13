@@ -13,9 +13,7 @@ class App extends Component {
     this.getPeople = this.getPeople.bind(this);
   }
   getPeople = () => {
-    return axios.get('https://swapi.co/api/people').
-      then((response) => {
-        console.log(response.data.results);
+    return axios.get('https://swapi.co/api/people').then((response) => {
         this.setState({ people: response.data.results })
       })
   }

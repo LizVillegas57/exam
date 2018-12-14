@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+.card-body img{
+  max-width: 100%;
+  width: 100%;
+}

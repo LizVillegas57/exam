@@ -1,21 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component,  Fragment} from 'react';
 import Recipes from './components/recipes';
 
+import Header from './components/pages/header';
+import Footer from './components/pages/footer';
 
 class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="jumbotron jumbotron-fluid">
-          <div className="container">
-            <h1 className="display-4">Welcome to star wars</h1>
-            <p className="lead">Some of the characters</p>
-          </div>
-        </div>
-
+      <Fragment>
+        <Header/>
         <Recipes/>
-      </div>
+        <Footer/>
+      </Fragment>
     );
   }
 }

@@ -54,22 +54,22 @@ class FormReceta extends Component {
             <React.Fragment>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="">
-                        Nombre platillo:
-                        <input type="text" name="nombredelplatillo" onChange={this.handleChange} />
+                        
+                        <input class="input" type="text" name="nombredelplatillo" onChange={this.handleChange} placeholder="Nombre del platillo" />
                     </label>
                     <label htmlFor="">
-                        Costo:
-                        <input type="text" name="costo" onChange={this.handleChange} />
+                        
+                        <input class="input" type="text" name="costo" onChange={this.handleChange} placeholder="Costo" />
                     </label>
                     <label htmlFor="">
-                        Categoria:
-                        <input type="text" name="categoria" onChange={this.handleChange} />
+                        
+                        <input class="input" type="text" name="categoria" onChange={this.handleChange} placeholder="Categoria"  />
                     </label>
                     <label htmlFor="">
-                        Ingredientes:
-                        <input type="text" name="ingredientes" onChange={this.handleChange} />
+                        
+                        <input class="input" type="text" name="ingredientes" onChange={this.handleChange} placeholder="Ingredientes" />
                     </label>
-                    <button type="submit">Enviar</button>
+                    <button class="boton" type="submit">Enviar</button>
               </form>
               <h2>{this.state.nombredelplatillo}</h2>
             </React.Fragment>

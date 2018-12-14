@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+
 .Header {
   height: 70px;
   list-style: none;
@@ -24,4 +27,49 @@
 .title{
   font-family: 'Carter One', cursive;
   font-size: 30px;
+  
+}
+
+/* -------------------------------------- */
+
+
+.card-title{
+  text-align: center;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.btn{
+  margin: 20px 0px 0px 240px;
+  background: red !important;
+}
+
+.list-group-item{
+  font-family: 'Noto Serif SC', serif;
+}
+
+.Recipes{
+ background: red
+}
+
+.card{
+  border-radius: 1.5rem !important;
+}
+
+.tarjetas{
+ background-image: url("https://statics-cuidateplus.marca.com/sites/default/files/styles/natural/public/comida_2.jpg?itok=HmukTYgl");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.boton{
+  background: #307af2;
+  margin-left: 500px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 20%
+}
+
+.input{
+  margin-left: 80px;
+  margin-top: 20px;
 }

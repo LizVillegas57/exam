@@ -12,9 +12,9 @@ function Footer(){
           <li>Categorias</li>
           <li>Acerca de nosotros</li>
           <li>Siguenos en</li>
-          <li> <Facebook size={20}  color="black" view="0 0 24 24"/> </li>
-          <li> <Instagram size={20} color="black" view="0 0 24 28"/> </li>
-          <li> <Twitter size={20}  color="black" view="0 0 24 24"/> </li>
+          <li> <Facebook size={20}  color="white" view="0 0 24 24"/> </li>
+          <li> <Instagram size={20} color="white" view="0 0 24 28"/> </li>
+          <li> <Twitter size={20}  color="white" view="0 0 24 24"/> </li>
         </div>
         <div className="aboutUs">
           <li>El recetón mexico</li> 

@@ -1,7 +1,9 @@
 .Footer {
-  background-color: darkgrey;
+  background-color: black;
   list-style: none;
   padding: 30px 0;
+  color: white;
+  margin-top: 400px
 }
 .navigate {
   display: flex;

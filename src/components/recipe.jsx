@@ -16,6 +16,12 @@ class Recipe extends Component {
                                 <span key={ingrediente}>{ingrediente} </span>
                             )}</li>
                         </ul>
+                    
+                        <button type="button" className="btn btn-light">
+                         Update
+                        </button>
+                        <button type="button" className="btn btn-dark">Delete</button>
+                    
                     </div>
                 </div>
             </React.Fragment>

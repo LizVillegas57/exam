@@ -26,16 +26,7 @@ class Recipe extends Component {
                                 <span key={ingrediente}>{ingrediente} </span>
                             )}</li>
                         </ul>
-<<<<<<< HEAD
-                    
-                        <button type="button" className="btn btn-light">
-                         Update
-                        </button>
-                        <button type="button" className="btn btn-dark">Delete</button>
-                    
-=======
                         <button type="button" className="btn btn-dark" onClick={() => this.handleDelete(this.props.recipe._id)}>Delete</button>
->>>>>>> 2b9102c4553e948547ccbda2da53a055e0a6cd47
                     </div>
                 </div>
             </React.Fragment>

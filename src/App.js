@@ -33,6 +33,12 @@ class App extends Component {
           </div>
         </div>
         <List people={people} />
+
+
+
+
+
+        
       </div>
     );
   }

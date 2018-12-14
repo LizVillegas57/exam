@@ -6,7 +6,7 @@ class Recipe extends Component {
             <React.Fragment>
                 <div className="card">
                     <div className="card-body">
-                        <img src="" alt=""/>
+                        <img src={this.props.recipe.image} alt=""/>
                         <h5 className="card-title">{this.props.recipe.nombredelplatillo}</h5>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">Costo: {this.props.recipe.costo}</li>
